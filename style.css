@@ -22,7 +22,7 @@ footer {
 nav ul {
   list-style: none;
   display: flex;
-  align-items: center; /* Center vertically */
+  align-items: center;
   justify-content: center;
 }
 
@@ -36,11 +36,15 @@ nav ul li a {
 }
 
 header nav ul {
-  justify-content: space-between; /* Distribute items with space between */
+  justify-content: space-between;
 }
 
 header nav ul li:first-child {
-  margin-right: auto; /* Push logo to the left */
+  margin-right: auto;
+}
+
+header nav ul li img {
+  height: 9em;
 }
 
 #hero {
@@ -48,21 +52,21 @@ header nav ul li:first-child {
   color: #fff;
   height: 70vh;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 0 2rem;
 }
 
 #hero h1 {
   font-size: 3rem;
-  margin-bottom: 1rem; /* Add space below heading */
+  margin-bottom: 1rem;
 }
 
 #hero p {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem; /* Add space below paragraph */
+  margin-bottom: 1.5rem;
 }
 
 #hero button {
