@@ -43,8 +43,12 @@ header nav ul li:first-child {
   margin-right: auto;
 }
 
+main section div img {
+  height: 15rem
+}
+
 header nav ul li img {
-  height: 9em;
+  height: 9rem;
 }
 
 #hero {
@@ -56,7 +60,6 @@ header nav ul li img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 2rem;
 }
 
 #hero h1 {
@@ -72,21 +75,29 @@ header nav ul li img {
 #hero button {
   background: #ff6600;
   color: #fff;
-  border: none;
+  border: 2px solid #ff6600;
   padding: 1rem 2rem;
   cursor: pointer;
+  border-radius: 1rem;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#hero button:hover {
+  background: #fff;
+  color: #000;
 }
 
 main {
-  padding: 2rem;
+  padding: 1rem
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem
 }
 
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 form input,
@@ -112,3 +123,26 @@ address a {
   color: #333;
   text-decoration: none;
 }
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+footer h2 {
+  margin-bottom: 0.5rem;
+}
+
+footer p,
+footer address p,
+footer address a {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+footer address a {
+  text-decoration: none;
+}
+
