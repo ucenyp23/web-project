@@ -45,8 +45,13 @@ h1, h2 {
   line-height: 110%;
 }
 
-h1 { font-size: 3rem; }
-h2 { font-size: 2rem; }
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
 
 p {
   font-family: var(--font-secondary);
@@ -78,11 +83,19 @@ footer {
   background: var(--main-white);
   color: var(--main-black);
   text-align: left;
-  padding: 1rem 0 0 0;
+  padding: 1rem;
+}
+
+footer section {
+  padding: 1rem;
+  border-bottom: 4px solid #000;
+}
+
+footer section:last-child {
+  border: none;
 }
 
 footer h2, footer p, footer address p, footer address a {
-  margin-bottom: 0.5rem;
   color: var(--main-black);
 }
 
@@ -183,10 +196,6 @@ main {
   padding: 2rem;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
 form input {
   width: 100%;
   padding: 0.75rem;
@@ -194,10 +203,6 @@ form input {
   background: var(--main-black);
   color: var(--main-white);
   border: 1px solid var(--main-white);
-}
-
-address p, address a {
-  margin-bottom: 0.5rem;
 }
 
 /* Image */
