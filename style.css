@@ -170,6 +170,12 @@ nav ul li a:hover {
   text-align: center;
 }
 
+/* Menu Section */
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /* Buttons */
 button {
   font-size: 1rem;
@@ -205,7 +211,7 @@ img {
 
 div img {
   border-radius: 2rem;
-  height: 16rem;
+  height: 32rem;
 }
 
 /* Map */
@@ -226,9 +232,4 @@ iframe {
   height: 84px;
   width: 100%;
   flex-shrink: 0;
-}
-
-#menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
