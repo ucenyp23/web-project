@@ -84,6 +84,8 @@ footer section {
   display: flex;
   flex-direction: column;
   align-items: normal;
+  position: relative;
+  padding-bottom: 1rem;
 }
 
 footer section:last-child {
@@ -220,15 +222,15 @@ div img {
 /* Map */
 iframe {
   border: 0;
-  width: 32rem;
-  height: 24rem;
+  width: 24rem;
+  height: 16rem;
 }
 
 /* Utility Classes */
 .map {
-  top: 0;
-  right: 0;
-  display: static;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .bg-gradient {
