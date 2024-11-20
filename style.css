@@ -226,8 +226,9 @@ iframe {
 
 /* Utility Classes */
 .map {
-  display: flex;
-  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  display: static;
 }
 
 .bg-gradient {
