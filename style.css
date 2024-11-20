@@ -1,6 +1,6 @@
 :root {
-  --font-primary: 'Beausite Fit Web', sans-serif;
-  --font-secondary: 'Chronicle Deck', serif;
+  --font-primary: "Beausite Fit Web", sans-serif;
+  --font-secondary: "Chronicle Deck", serif;
   --black: #101010;
   --white: #ffffff;
   --green: #58ffa5;
@@ -214,6 +214,12 @@ div img {
   height: 16rem;
 }
 
+/* Map */
+iframe {
+  text-align: right;
+  align-items: end;
+}
+
 /* Utility Classes */
 .bg-green {
   background: var(--green);
@@ -226,4 +232,3 @@ div img {
 .bg-red {
   background: var(--red);
 }
-
