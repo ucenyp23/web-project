@@ -74,13 +74,16 @@ footer {
   background: var(--white);
   color: var(--black);
   text-align: left;
-  padding: 1rem;
+  padding: 0.5rem;
   flex-shrink: 0;
 }
 
 footer section {
-  padding: 1rem;
-  border-bottom: 4px solid #000;
+  padding: 0.5rem;
+  border-bottom: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
 }
 
 footer section:last-child {
@@ -216,11 +219,17 @@ div img {
 
 /* Map */
 iframe {
+  border: 0;
   width: 32rem;
   height: 24rem;
 }
 
 /* Utility Classes */
+.map {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .bg-gradient {
   background: linear-gradient(
     to bottom,
