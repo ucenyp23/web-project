@@ -70,12 +70,6 @@ main * p {
 }
 
 /* Footer */
-.footer-colorbar {
-  height: 28px;
-  width: 100%;
-  flex-shrink: 0;
-}
-
 footer {
   background: var(--white);
   color: var(--black);
@@ -218,17 +212,20 @@ div img {
 iframe {
   text-align: right;
   align-items: end;
+  width: 32rem;
+  height: 24rem;
 }
 
 /* Utility Classes */
-.bg-green {
-  background: var(--green);
-}
-
-.bg-gold {
-  background: var(--gold);
-}
-
-.bg-red {
-  background: var(--red);
+.bg-gradient {
+  background: linear-gradient(
+    to bottom,
+    var(--green) 33%,
+    var(--gold) 33%,
+    var(--gold) 67%,
+    var(--red) 67%
+  );
+  height: 84px;
+  width: 100%;
+  flex-shrink: 0;
 }
