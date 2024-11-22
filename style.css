@@ -225,6 +225,8 @@ a img {
 
 .map iframe {
   border: 0;
+  height: 16rem;
+  width: 32rem;
 }
 
 /* Baground Gradient */
