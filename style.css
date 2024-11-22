@@ -293,3 +293,8 @@ a img {
     font-size: 0.875rem;
   }
 }
+#tlacitka {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
