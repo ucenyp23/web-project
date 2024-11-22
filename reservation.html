@@ -1,119 +1,138 @@
-<!DOCTYPE html>
-<html lang="cs">
+<!doctype html>
+<html lang=cs>
+  
   <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="restaurace, jídlo, Královéhradecký kraj, U Buláka" />
-    <meta
-      name="author"
-      content="Pavel Učený a Antonín Vaňouček" />
-    <meta
-      name="description"
-      content="Vychutnejte si nejlepší kuchyni v Královéhradeckém kraji v restauraci U Bulánka." />
-    <title>Restaurace U Bulánka</title>
-    <link
-      rel="stylesheet"
-      href="style.css" />
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=keywords content="restaurace, jídlo, Královéhradecký kraj, U Buláka">
+    <meta name=author content="Pavel Učený a Antonín Vaňouček">
+    <meta name=description content="Vychutnejte si nejlepší kuchyni v Královéhradeckém kraji v restauraci U Bulánka.">
+    <title>
+      Restaurace U Bulánka
+    </title>
+    <link rel=stylesheet href=style.css>
   </head>
+  
   <body>
     <header>
       <nav>
-        <div
-          class="menu-icon"
-          id="menu-icon">
+        <div class=menu-icon id=menu-icon>
           &#9776;
         </div>
-        <ul class="menu">
+        <ul class=menu>
           <li>
-            <a href="index.html"
-              ><img
-                src="logo.png"
-                alt="Logo restaurace U Bulánka"
-            /></a>
+            <a href=index.html>
+              <img src=logo.png alt="Logo restaurace U Bulánka">
+            </a>
           </li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="reservation.html">Rezervace</a></li>
-          <li><a href="region.html">Kraj a okolí</a></li>
-          <li><a href="index.html#about">O Nás</a></li>
-          <li><a href="index.html#gallery">Galerie</a></li>
+          <li>
+            <a href=menu.html>
+              Menu
+            </a>
+          </li>
+          <li>
+            <a href=reservation.html>
+              Rezervace
+            </a>
+          </li>
+          <li>
+            <a href=region.html>
+              Kraj a okolí
+            </a>
+          </li>
+          <li>
+            <a href=index.html#about>
+              O Nás
+            </a>
+          </li>
+          <li>
+            <a href=index.html#gallery>
+              Galerie
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h2>Rezervace</h2>
+      <h2>
+        Rezervace
+      </h2>
       <form>
-        <label for="name">Jméno:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          autocomplete="on"
-          required />
-        <label for="email">E-mail:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          autocomplete="on"
-          required />
-        <label for="date">Datum:</label>
-        <input
-          type="date"
-          id="date"
-          name="date"
-          required />
-        <label for="time">Čas:</label>
-        <input
-          type="time"
-          id="time"
-          name="time"
-          required />
-        <label for="guests">Počet Hostů:</label>
-        <input
-          type="number"
-          id="guests"
-          name="guests"
-          required
-          min="1"
-          max="142" />
-        <button
-          type="submit"
-          aria-label="Rezervovat">
+        <label for=name>
+          Jméno:
+        </label>
+        <input id=name name=name autocomplete=on required>
+        <label for=email>
+          E-mail:
+        </label>
+        <input type=email id=email name=email autocomplete=on required>
+        <label for=date>
+          Datum:
+        </label>
+        <input type=date id=date name=date required>
+        <label for=time>
+          Čas:
+        </label>
+        <input type=time id=time name=time required>
+        <label for=guests>
+          Počet Hostů:
+        </label>
+        <input type=number id=guests name=guests required min=1 max=142>
+        <button type=submit aria-label=Rezervovat>
           Rezervovat
         </button>
       </form>
     </main>
     <footer>
       <section>
-        <h2>Otevírací Hodiny</h2>
-        <p>Po - Ne 11:00 - 21:00</p>
+        <h2>
+          Otevírací Hodiny
+        </h2>
+        <p>
+          Po - Ne 11:00 - 21:00
+        </p>
       </section>
       <section>
-        <h2>Adresa</h2>
-        <p>Batňovice 4, 542 37</p>
-        <div class="map">
-          <iframe
-            src="https://frame.mapy.cz/s/bobukurana"
-            title="Mapa"></iframe>
+        <h2>
+          Adresa
+        </h2>
+        <p>
+          Batňovice 4, 542 37
+        </p>
+        <div class=map>
+          <iframe src=https://frame.mapy.cz/s/bobukurana title=Mapa>
+          </iframe>
         </div>
       </section>
       <section>
-        <h2>Kontakt</h2>
+        <h2>
+          Kontakt
+        </h2>
         <address>
-          <p>Telefon: 499 787 368</p>
-          <p>Mobil: 602 145 254</p>
-          <p>Email: <a href="mailto:bulanek@seznam.cz">bulanek@seznam.cz</a></p>
+          <p>
+            Telefon: 499 787 368
+          </p>
+          <p>
+            Mobil: 602 145 254
+          </p>
+          <p>
+            Email:
+            <a href=mailto:bulanek@seznam.cz>
+              bulanek@seznam.cz
+            </a>
+          </p>
         </address>
       </section>
       <section>
-        <p>Pavel Učený a Antonín Vanouček, 2024</p>
+        <p>
+          Pavel Učený a Antonín Vanouček, 2024
+        </p>
       </section>
     </footer>
-    <div class="bg-gradient"></div>
-    <script src="script.js"></script>
+    <div class=bg-gradient>
+    </div>
+    <script src=script.js>
+    </script>
   </body>
+
 </html>
