@@ -70,7 +70,6 @@ footer section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: relative;
 }
 
 footer section:last-child {
@@ -208,12 +207,17 @@ input::-webkit-calendar-picker-indicator {
   display: none;
 }
 
+input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 5px var(--gold);
+}
+
 /* Image */
 a img {
   height: 8rem;
 }
 
-/* Image Grid in Gallery */
+/* Gallery Section */
 #gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
