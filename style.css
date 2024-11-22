@@ -197,9 +197,14 @@ input {
   width: 100%;
   padding: 0.75rem;
   margin: 0.5rem 0;
-  background: var(--black);
+  background-color: var(--black);
   color: var(--white);
   border: 1px solid var(--white);
+  appearance: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
 }
 
 /* Image */
