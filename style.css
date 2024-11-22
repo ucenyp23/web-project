@@ -52,7 +52,6 @@ h2 {
 p {
   font-family: var(--font-secondary);
   font-size: 1rem;
-  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -202,6 +201,7 @@ input {
   color: var(--white);
   border: 1px solid var(--white);
   appearance: none;
+  outline: none;
 }
 
 input::-webkit-calendar-picker-indicator {
